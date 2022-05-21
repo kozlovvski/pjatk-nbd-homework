@@ -1,0 +1,23 @@
+{
+  "name": "pjatk-nbd-homework",
+  "version": "0.1.0",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kozlovvski/pjatk-nbd-homework.git"
+  },
+  "author": "kozlovvski",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^8.0.1",
+    "prettier": "^2.6.2"
+  },
+  "lint-staged": {
+    "*.{js}": "eslint --fix"
+  }
+}
