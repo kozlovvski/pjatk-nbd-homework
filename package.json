@@ -11,13 +11,18 @@
   "author": "kozlovvski",
   "license": "ISC",
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "glob": "^8.0.3",
     "husky": "^8.0.1",
     "prettier": "^2.6.2"
   },
   "lint-staged": {
-    "*.{js}": "eslint --fix"
+    "*.{js, json}": "eslint --fix"
+  },
+  "dependencies": {
+    "mongodb": "^4.6.0"
   }
 }
