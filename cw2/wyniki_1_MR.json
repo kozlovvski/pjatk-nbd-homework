@@ -1,0 +1,12 @@
+{
+	"results" : [
+		{
+			"_id" : "height-weight",
+			"value" : {
+				"height" : 167.10304999999985,
+				"avgWeight" : 70.05763400000049
+			}
+		}
+	],
+	"ok" : 1
+}
