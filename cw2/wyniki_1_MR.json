@@ -3,8 +3,10 @@
 		{
 			"_id" : "height-weight",
 			"value" : {
-				"height" : 167.10304999999985,
-				"avgWeight" : 70.05763400000049
+				"maleAvgHeight" : 167.0800817221449,
+				"maleAvgWeight" : 70.00180785329881,
+				"femaleAvgHeight" : 167.12617499498276,
+				"femaleAvgWeight" : 70.11384105960275
 			}
 		}
 	],
