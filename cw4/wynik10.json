@@ -1,0 +1,96 @@
+﻿[
+  {
+    "p": {
+"start": {
+"identity": 28,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "MSN"
+        }
+      },
+"end": {
+"identity": 75,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "GRR"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 28,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSN"
+            }
+          },
+          "relationship": {
+"identity": 2738,
+"start": 28,
+"end": 14,
+"type": "FLIGHT_TO",
+"properties": {
+"flight": 271,
+"prices": [
+                88.5,
+                118.0,
+                141.6
+              ]
+            }
+          },
+          "end": {
+"identity": 14,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 14,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 2777,
+"start": 14,
+"end": 75,
+"type": "FLIGHT_TO",
+"properties": {
+"flight": 851,
+"prices": [
+                108.0,
+                144.0,
+                172.79999999999998
+              ]
+            }
+          },
+          "end": {
+"identity": 75,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "GRR"
+            }
+          }
+        }
+      ],
+"length": 2.0
+    },
+    "totalPrice": 196.5
+  }
+]
