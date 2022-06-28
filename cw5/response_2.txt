@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvnd4d3cTkM2UwZTImMfKIL5c7w5fFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25873>; rel="up"
+Last-Modified: Mon, 27 Jun 2022 22:11:35 GMT
+ETag: "1vv7URDK0x0ZZsP2foDyl1"
+Date: Mon, 27 Jun 2022 22:16:10 GMT
+Content-Type: application/json
+Content-Length: 88
+
+{"id": 2, "name": "Ervin Howell", "username": "Antonette", "email": "Shanna@melissa.tv"}%   
